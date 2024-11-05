@@ -324,7 +324,7 @@ function makeFooter() {
     let savedStateTemperoryNavBar = document.getElementById("header").innerHTML;
 
     let savedStateTemperoryFooter = makeFooter().innerHTML; // for footer
-    // fetching navigation bar of index,html
+    // fetching navigation bar of index,htm
     fetch("index.html").then(function (response) {
         return response.text();
     }).then(function (html) {
