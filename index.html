@@ -94,7 +94,8 @@
           <li class="dropdown">
             <a href="#"><span>Program</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="schedule.html">Schedule</a></li>
+              <!-- schedule.html tha -->
+              <li><a href="#" onclick="showMessage()">Schedule</a></li>
               <li><a href="#">Keynote & Tutorial</a></li>
             </ul>
           </li>
@@ -133,7 +134,10 @@
             <a href="#"><span>Downloads</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                <a href="./assets/downloads/updatedbrochure.pdf" download>IMME Brochure 2022</a>
+                <a href="./assets/downloads/brochure2025.pdf" download>IMME Brochure 2025</a>
+              </li>
+              <li>
+                <a href="./assets/downloads/IMMEFLYER2025.pdf" download>IMME FLYER 2025</a>
               </li>
               <!-- <li><a href="./assets/downloads/consent.doc">Consent</a></li> -->
               <li><a href="./assets/downloads/copyright.pdf">Copyright</a></li>
@@ -315,8 +319,8 @@
             data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-calendar"></i></div>
-              <h4>Feb 28 - Mar 01, 2025</h4>
-              <p>The Dates for the Conference: Feb 28 - Mar 01, 2025</p>
+              <h4>Feb 28 - Mar 02, 2025</h4>
+              <p>The Dates for the Conference: Feb 28 - Mar 02, 2025</p>
               <a href="schedule.html" style="font-size: 0.8em; font-weight: bold; color:red"><span style="color:rgb(0, 94, 255)">Program Schedule</span> (New)</a>
             </div>
           </div>
@@ -612,119 +616,126 @@
     <!-- End Call for Papers and Conference Themes -->
 
     <!-- ======= Registration Section ======= -->
-    <section id="registration" class="">
+    <section id="registration">
       <div class="container" data-aos="zoom-in">
-        <div class="section-title">
-          <h2>Registration</h2>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-lg-start">
-            <div id="Registration-Fee">
-              <h3>Registration Fee</h3>
-              <table>
-                <tbody><tr>
-                  <td><strong>Category</strong></td>
-                  <td><strong>Indian Delegates</strong></td>
-                  <td><strong>Foreign Delegates</strong></td>
-                </tr>
-                <tr>
-                  <td><strong>Student</strong></td>
-                  <td>
-                    INR 5,000
-                    <!-- +900(18% GST)=INR 5900/-/-(Including GST)
-                     -->
-                  </td>
-                  <td>
-                    USD 250
-                    <!-- (18% GST ) -->
-                  </td>
-                </tr>
-                <tr>
-                  <td><strong>Faculty</strong></td>
-                  <td>
-                    INR 8,000
-                    <!-- +1440 (18% GST)=INR 9440/- /-(Including GST) -->
-                  </td>
-                  <td>
-                    USD 400 
-                    <!-- (18% GST ) -->
-                  </td>
-                </tr>
-                <tr>
-                  <td><strong>Industry</strong></td>
-
-                  <td>
-                    INR 10,000 
-                    <!-- + 1800 (18% GST )Rs. 11800/-(Including GST) -->
-                  </td>
-                  <td>
-                    USD 500 
-                    <!-- (18% GST ) -->
-                  </td>
-                </tr>
-                <tr>
-                  <td><strong>Participation Only <br>(outside MNNIT Allahabad Delegates)</strong></td>
-                  <td>
-                    INR 4,000
-                  </td>
-                  <td>
-                    USD 200
-                  </td>
-                </tr>
-                </tbody>
-              </table>
-              <div class="extra-info">
-                <strong>50% Discount in registration fees may be offered to communicating author for the registration of the Second Paper.</strong>
-              </div>
-              <div class="extra-info">
-                <strong>50% Discount in registration fees may be offered to foreign authors holding Indian Passport.<i style="color:red"> new</i></strong>
-              </div>
-              <!-- <div class="extra-info">
-                <strong>Discount of INR 1000 for indian deligates<br>and USD 20 for foreign deligates will be<br>given during early bird registration</strong>
-              </div> -->
-            </div>
+          <div class="section-title">
+              <h2>Registration</h2>
           </div>
-          <div class="col-lg-6 text-lg-start">
-            <div id="Mode-of-payment">
-              <h3>Mode of Payment</h3>
-              <p>
-                All payments should be made through online electronic transfer
-                in the account of conference with following detail:
-              </p>
-              <table>
-                <tr>
-                  <td>Beneficiary Name</td>
-                  <td>IMME 2025</td>
-                </tr>
-                <tr>
-                  <td>Account No</td>
-                  <td>----</td>
-                </tr>
-                <!-- <tr>
-                  <td>Account Type</td>
-                  <td>Current Account</td>
-                </tr> -->
-                <tr>
-                  <td>Account Type</td>
-                  <td>
-                    Current Account
-                  </td>
-                </tr>
-                <tr>
-                  <td>Bank</td>
-                  <td> Bank of Baroda, MNNIT Allahabad - 211004 </i></td>
-                </tr>
-                <tr>
-                  <td>IFSC</td>
-                  <td> BARB0VJMNRE (fifth digit is Zero)</i></td>
-                </tr>
-              </table>
-              <b>(please ensure to mention unique ID: 2022-23MED-05 in the transaction remarks)</b>
-            </div>
+          <div class="row justify-content-center">
+              <div class="col-lg-12">
+                  <div id="Registration-Fee">
+                      <h3>Registration Fee</h3>
+                      <table class="table table-bordered">
+                          <thead>
+                              <tr>
+                                  <th colspan="2">Category</th>
+                                  <th>Publication in conference proceedings with e-ISBN/poster presentation</th>
+                                  <th>Publication in Journals</th>
+                                  <th>Participation Only</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <!-- Indian Delegates -->
+                              <tr>
+                                  <td rowspan="3"><strong>Indian Delegates</strong></td> <!-- Rowspan for Indian Delegates -->
+                                  <td><strong>Student</strong></td>
+                                  <td>INR 3,000</td>
+                                  <td>INR 5,000</td>
+                                  <td>INR 2,000</td>
+                              </tr>
+                              <tr>
+                                  <td><strong>Faculty</strong></td>
+                                  <td>INR 6,000</td>
+                                  <td>INR 8,000</td>
+                                  <td>INR 5,000</td>
+                              </tr>
+                              <tr>
+                                  <td><strong>Industry</strong></td>
+                                  <td>INR 8,000</td>
+                                  <td>INR 10,000</td>
+                                  <td>INR 7,000</td>
+                              </tr>
+  
+                              <!-- Foreign Delegates -->
+                              <tr>
+                                  <td rowspan="3"><strong>Foreign Delegates</strong></td> <!-- Rowspan for Foreign Delegates -->
+                                  <td><strong>Student</strong></td>
+                                  <td>USD 200</td>
+                                  <td>USD 250</td>
+                                  <td>USD 150</td>
+                              </tr>
+                              <tr>
+                                  <td><strong>Faculty</strong></td>
+                                  <td>USD 350</td>
+                                  <td>USD 400</td>
+                                  <td>USD 300</td>
+                              </tr>
+                              <tr>
+                                  <td><strong>Industry</strong></td>
+                                  <td>USD 400</td>
+                                  <td>USD 500</td>
+                                  <td>USD 350</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                      <div class="extra-info">
+                          <strong>50% Discount in registration fees may be offered to the communicating author for the registration of the second paper.</strong>
+                      </div>
+                      <div class="extra-info">
+                          <strong>50% Discount in registration fees may be offered to foreign authors holding an Indian Passport. <i style="color:red">new</i></strong>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
+  </section>
+  
+  <!-- Mode of Payment Section -->
+  <section id="mode-of-payment">
+      <div class="container" data-aos="zoom-in">
+          <div class="section-title">
+              <h2>Mode of Payment</h2>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-lg-12">
+                  <div id="Mode-of-payment">
+                      <h3>Payment Details</h3>
+                      <p>
+                          All payments should be made through online electronic transfer in the account of the conference with the following details:
+                      </p>
+                      <table class="table table-borderless">
+                          <tr>
+                              <td><strong>Beneficiary Name</strong></td>
+                              <td>NON FORMAL CONTINUING OF EDU</td>
+                          </tr>
+                          <tr>
+                              <td><strong>Account No.</strong></td>
+                              <td>10424975574</td>
+                          </tr>
+                          <tr>
+                              <td><strong>Account Type</strong></td>
+                              <td>Current Account</td>
+                          </tr>
+                          <tr>
+                              <td><strong>Bank</strong></td>
+                              <td>SBI, MNNIT Allahabad</td>
+                          </tr>
+                          <tr>
+                              <td><strong>IFSC</strong></td>
+                              <td>SBIN0002580</td>
+                          </tr>
+                          <tr>
+                              <td><strong>SWIFT</strong></td>
+                              <td>SBININBB</td>
+                          </tr>
+                      </table>
+                      <b>(Please ensure to mention unique ID: 2024-25MED-000000 in the transaction remarks)</b>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
     <!-- End Registration Section -->
 
 
@@ -927,7 +938,7 @@
                   <p>Motilal Nehru National Institute of Technology Allahabad (MNNITA),
                     Prayagaraj-211004</p>
               </div>
-              <p><b>Email:</b> imme2022@mnnit.ac.in</p>
+              <p><b>Email:</b> imme_med@mnnit.ac.in</p>
               <p><b>Mobile:</b> 98387-17234</p>
             </div>
           </div>
@@ -941,7 +952,7 @@
                   <p>Motilal Nehru National Institute of Technology Allahabad (MNNITA),
                     Prayagaraj-211004</p>
               </div>
-              <p><b>Email:</b> imme2022@mnnit.ac.in</p>
+              <p><b>Email:</b> imme_med@mnnit.ac.in</p>
               <p><b>Mobile:</b> 98358-64273</p>
             </div>
           </div>
@@ -983,7 +994,7 @@ Prayagraj city is situated in the north part of India in the Awadh region of sta
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>imme2022@mnnit.ac.in</p>
+                <p>imme_med@mnnit.ac.in</p>
               </div>
 
               <div class="phone">
@@ -1268,7 +1279,7 @@ there in every tourist itinerary.
               (MNNITA),<br />
               Prayagraj, U.P. - 211004, INDIA <br /><br />
 
-              <strong>Email:</strong> imme2022@mnnit.ac.in<br />
+              <strong>Email:</strong> imme_med@mnnit.ac.in<br />
             </p>
           </div>
 
@@ -1353,6 +1364,9 @@ there in every tourist itinerary.
       keyboard: true,
       pause: false,
     });
+    function showMessage() {
+      alert('Coming soon');
+    }
   </script>
 </body>
 </html>
