@@ -12,6 +12,53 @@
   display: grid;
   place-items: center;
 }
+/* Blinking */
+
+.blinking-link {
+  color: red;
+  font-weight: bold;
+  animation: blinking 1.5s infinite;
+  text-decoration: underline;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*  */
+#kumbh-section {
+  padding: 2rem 0;
+}
+.kumbh-container {
+  position: relative;
+}
+.kumbh-section-title {
+  text-align: center;
+}
+.kumbh-carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.kumbh-carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 300%; /* Width accommodates all images */
+}
+.kumbh-carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+/*  */
 
 #hero .hero-text {
   border-top: #00aeff 4px solid;
