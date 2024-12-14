@@ -11,6 +11,105 @@
 }
 /* Hero  */
 
+#kumbh-section {
+  padding: 2rem 0;
+}
+.kumbh-container {
+  position: relative;
+}
+.kumbh-section-title {
+  text-align: center;
+}
+.kumbh-carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.kumbh-carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 300%; /* Width accommodates all images */
+}
+.kumbh-carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+/*  */
+
+.partner img {
+  max-height: 200px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+.partner h3 {
+  text-align: center;
+}
+
+
+
+/*  */
+.hero-text {
+  text-align: center;
+  margin: 20px;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust for spacing between logos and text */
+  margin: 20px auto;
+}
+
+.text-content {
+  flex: 1;
+  text-align: center;
+}
+
+.nlogo {
+  height: 220px; /* Increased size for desktop */
+  width: auto;
+}
+
+.organised-by {
+  margin-top: 20px;
+}
+
+.logo-mobile {
+  display: none; /* Hidden on desktop */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .container-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .logo {
+    height: 120px; /* Increased size for mobile view */
+  }
+
+  .logo-mobile {
+    display: block; /* Show IMME logo above 'Organized by' */
+    margin-top: 20px;
+  }
+
+  .left-logo {
+    display: none; /* Hide left logo in the main section for mobile */
+  }
+
+  .text-content h3,
+  .text-content h4 {
+    margin-top: 10px;
+  }
+}
+
 /*  */
 #AlertDeadline{
   position: fixed;
